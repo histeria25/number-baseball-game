@@ -1,2 +1,20 @@
-# number-baseball-game
-숫자 야구 게임 with codespaces
+# ⚾️ AI와 함께하는 숫자 야구 게임 배포 프로젝트
+
+이 프로젝트는 **VS Code + GitHub Copilot**을 활용한 바이브 코딩 실습 과제입니다.
+
+## 🎯 프로젝트 목표
+1. **숫자 야구 로직 구현**: 3스트라이크를 맞추는 게임 기능을 만듭니다.
+2. **웹 UI 디자인**: HTML/CSS를 활용해 세련된 게임 화면을 구성합니다.
+3. **랭킹 시스템 연동**: Google Apps Script(GAS)를 이용해 결과를 구글 스프레드시트에 저장합니다.
+4. **GitHub Pages 배포**: 결과물을 웹에 공개합니다.
+
+## 🛠 파일 역할
+- `index.html`: 게임의 구조 (UI)
+- `style.css`: 게임의 디자인 (CSS)
+- `script.js`: 게임 로직 및 GAS 연동 (JavaScript)
+- `google_script.js`: 구글 스프레드시트에 붙여넣을 서버 코드
+
+## 💡 코파일럿에게 이렇게 물어보세요!
+- "index.html에 숫자 야구 게임을 위한 입력창, 버튼, 결과 기록창을 만들어줘."
+- "script.js에 3자리 숫자를 맞추는 게임 로직을 짜줘. 중복 숫자는 없어야 해."
+- "게임이 끝나면 GAS URL로 점수를 보내는 기능을 추가해줘."
